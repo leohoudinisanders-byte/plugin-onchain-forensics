@@ -1,0 +1,46 @@
+{
+  "name": "plugin-onchain-forensics",
+  "version": "1.0.0",
+  "description": "elizaOS plugin: A-F token risk grades with holder breadth and DEX depth, settlement-safety checks, mint activity and wallet screening, from the x402-payable On-chain Forensics API.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "smoke": "node test/smoke.mjs"
+  },
+  "keywords": [
+    "elizaos",
+    "eliza",
+    "plugin",
+    "x402",
+    "agent",
+    "onchain",
+    "token-risk",
+    "due-diligence",
+    "token-verdict",
+    "settlement",
+    "base",
+    "forensics"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leohoudinisanders-byte/plugin-onchain-forensics.git"
+  },
+  "homepage": "https://onchainforensics.dev"
+}
